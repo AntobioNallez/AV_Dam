@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<electrodomestico xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Actividades%207.3.xsd">
+    <ref_num>A12345</ref_num>
+    <Tipo ef_energ="A"></Tipo>
+    <marca modelo="B23">
+        <Nombre>Fagor</Nombre>
+        <País>España</País>
+    </marca>
+    <precio_venta>500</precio_venta>
+    <precio_coste>395.50</precio_coste>
+    <colores>
+        <color>Blanco</color>
+        <color>Negro</color>
+    </colores>
+    <instalacion accesorios="Puerta"></instalacion>
+    <localidad>Logroño</localidad>
+    <año>2013</año>
+    <unidades>2</unidades>
+    <LineaBlanca linea="8"></LineaBlanca>
+
+    <ref_num>HRJ345</ref_num>
+    <Tipo ef_energ="A"></Tipo>
+    <marca modelo="H111">
+        <Nombre>Miele</Nombre>
+        <País>Alemania</País>
+    </marca>
+    <precio_venta>400</precio_venta>
+    <precio_coste>300</precio_coste>
+    <color>Blanco</color>
+    <instalacion accesorios="Puerta"></instalacion>
+    <localidad>Logroño</localidad>
+    <año>2013</año>
+    <unidades>0</unidades>
+    <LineaBlanca linea="8"></LineaBlanca>
+
+    <ref_num>B54321</ref_num>
+    <Tipo ef_energ="B"></Tipo>
+    <marca modelo="NeoFrost">
+        <Nombre>Siemens</Nombre>
+        <País>Alemania</País>
+    </marca>
+    <precio_venta>750</precio_venta>
+    <precio_coste>566.50</precio_coste>
+    <color>Metálico</color>
+    <instalacion accesorios="Panel"></instalacion>
+    <localidad>Arnedo</localidad>
+    <año>2013</año>
+    <unidades>1</unidades>
+    <LineaBlanca linea="8"></LineaBlanca>
+</electrodomestico>

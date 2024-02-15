@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Biblioteca>
+    <Libro>
+        <Titulo>Arde París</Titulo>
+        <Autores>
+            <Autor Nombre="Dominique Lapierre" Pais="Francia"/>
+            <Autor Nombre="Larry Collins" Pais="Estados Unidos"/>
+        </Autores>
+        <AnoPublicacion>1975</AnoPublicacion>
+        <Editorial>Alfaguara</Editorial>
+        <ISBN>97884010101</ISBN>
+        <FechaCompra>
+            <Dia>12</Dia>
+            <Mes>10</Mes>
+            <Ano>2012</Ano>
+        </FechaCompra>
+        <Recomendado>No</Recomendado>
+    </Libro>
+
+    <Libro>
+        <Titulo>El Quijote</Titulo>
+        <Autores>
+            <Autor Nombre="Cervantes" Pais="España"/>
+        </Autores>
+        <AnoPublicacion>2012</AnoPublicacion>
+        <Editorial>Planeta</Editorial>
+        <ISBN>9788412345</ISBN>
+        <Recomendado>Sí</Recomendado>
+    </Libro>
+
+    <Libro>
+        <Titulo>La historia interminable</Titulo>
+        <Autores>
+            <Autor Nombre="Michael Ende" Pais="Alemania"/>
+        </Autores>
+        <AnoPublicacion>1979</AnoPublicacion>
+        <Editorial>Alfaguara</Editorial>
+        <ISBN>9788420471549</ISBN>
+        <Recomendado>Sí</Recomendado>
+    </Libro>
+
+    <Libro>
+        <Titulo>El Quijote</Titulo>
+        <Autores>
+            <Autor Nombre="Cervantes" Pais="España"/>
+        </Autores>
+        <AnoPublicacion>2012</AnoPublicacion>
+        <Editorial>Planeta</Editorial>
+        <ISBN>9788412345</ISBN>
+        <Recomendado>Sí</Recomendado>
+    </Libro>
+
+</Biblioteca>

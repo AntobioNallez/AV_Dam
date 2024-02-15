@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM "Actividad 2.2.dtd">
+
+<libro>
+    <titulo>Arde París</titulo>
+    <autores>
+        <autor>
+            <nombre>Dominique</nombre>
+            <apellidos>Lapierre</apellidos>
+        </autor>
+        <autor>
+            <nombre>Larry</nombre>
+            <apellidos>Collins</apellidos>
+        </autor>
+        <autor>
+            <nombre>Antonio</nombre>
+            <apellidos>Vallez</apellidos>
+        </autor>
+    </autores>
+    <publicacion>1975</publicacion>
+    <editorial>Alfaguara</editorial>
+    <isbn>97884010101</isbn>
+    <fecha_compra>
+        <dia>12</dia>
+        <mes>10</mes>
+        <año>2012</año>
+    </fecha_compra>
+</libro>
