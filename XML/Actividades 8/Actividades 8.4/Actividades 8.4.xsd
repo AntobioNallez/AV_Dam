@@ -68,12 +68,12 @@
     </xs:simpleType>
 
     <xs:complexType name="emisionesType">
-        <xs:attribute name="CO2" type="CO2Type" use="required" />
+        <xs:attribute name="CO2" type="CO2Type" use="optional" />
     </xs:complexType>
 
     <xs:simpleType name="CO2Type">
         <xs:restriction base="xs:integer">
-            <xs:maxInclusive value="5" />
+            <xs:maxExclusive value="5" />
         </xs:restriction>
     </xs:simpleType>
 
