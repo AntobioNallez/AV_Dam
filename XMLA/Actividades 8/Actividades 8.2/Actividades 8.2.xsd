@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Concesionario">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Coche" maxOccurs="unbounded" type="cochesType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="cochesType">
+        <xs:sequence>
+            <xs:element name="Marca" type="marcas" />
+            <xs:element name="Matrícula" type="xs:string" />
+            <xs:element name="Potencia" type="potencias"/>
+            <xs:element name="Plazas" type="xs:string" />
+            <xs:element name="Num_puertas" type="xs:string" />
+            <xs:element name="Bajas_emisiones" minOccurs="0" type="emisionesType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="marcas">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="modelo" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="potencias">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="combustible" default="gasolina" type="combustibles" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:simpleType name="combustibles">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="gasolina" />
+            <xs:enumeration value="gasoil" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="emisionesType">
+        <xs:attribute name="CO2" type="xs:integer" use="required" />
+    </xs:complexType>
+</xs:schema>

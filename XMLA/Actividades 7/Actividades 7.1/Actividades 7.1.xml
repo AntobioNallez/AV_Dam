@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE electrodomestico SYSTEM "Actividades%207.1.dtd"> -->
+
+<electrodomestico xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Actividades%207.1.xsd">
+    <ref_num></ref_num>
+    <Tipo ef_energ="A"></Tipo>
+    <marca modelo="Audi"></marca>
+    <precio_venta></precio_venta>
+    <precio_coste></precio_coste>
+    <color></color>
+    <instalacion accesorios="Panel"></instalacion>
+    <localidad></localidad>
+    <año></año>
+    <unidades></unidades>
+</electrodomestico>
