@@ -1,0 +1,54 @@
+@keyframes mianimacion {
+    0% {}
+
+    50% {
+        width: 500px;
+        height: 40px;
+    }
+
+    100% {
+        width: 500px;
+        height: 300px;
+        background-color: #222266;
+    }
+}
+
+@keyframes animacion4 {
+    0% {}
+
+    50% {
+        rotate: 180deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+div {
+    color: white;
+    background-color: blue;
+    height: 60px;
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#bloque1 {
+    animation-name: mianimacion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#bloque4 {
+    animation-name: animacion4;
+    animation-duration: 10s;
+    animation-iteration-count: 3;
+}
+
+body {
+    background-image: url('../Imagenes/fondo.png');
+}

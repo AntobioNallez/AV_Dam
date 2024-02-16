@@ -1,0 +1,60 @@
+		.autor {
+			color: black;
+		}
+
+		.asimov{
+			color: black;
+			text-transform: uppercase;
+			text-decoration: underline;
+		}
+		
+		.asimov:hover {
+			color: red;
+		}
+
+		.gugol {
+			font-weight: bold;
+			font-family: 'Courier New', Courier, monospace;
+		}
+
+		h2 {
+			color: blue;
+			font-family: Tamoha;
+		}
+
+		.libro {
+			color: #9A2A2A;
+		}
+
+		h3 {
+			font-weight: bold;
+		}
+		
+		p {
+			font-style: italic;
+			color: rgb(7, 7, 170);
+			margin: 10px;
+		}
+		div.cabeza {
+		border: 1px solid;
+		font-weight: bold;
+		background-color: #18EAEA;
+		font-size: 44px;
+		text-align: center;
+		color: #9A2A2A;
+		border-color: rgb(20, 81, 248);
+		}
+		.columna {
+			column-count: 3;
+			column-gap: 40px;
+			column-rule: none;
+		}
+		div.borde {
+			border: 1px solid;
+			background-color: #81D1DC;
+		}
+		
+		sup{
+			font-size: 8px;
+		}
+		

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Segoe Print;
+    src: url(Fuentes/segoe-print/segoepr.ttf);
+}
+
+legend {
+    font-weight: bold;
+    color: darkblue;
+}
+
+p {
+    font-style: italic;
+}
+
+div.bordes {
+    border: 1px solid;
+    color: rgb(92, 106, 240);
+    position: absolute;
+    right: 70%;
+}
+
+div.bordes2 {
+    border: 1px solid;
+    color: rgb(92, 106, 240);
+    position: absolute;
+    right: 50%;
+}
+
+input.botones {
+    position: relative;
+    left: 50%;
+    margin-right: 50px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: Segoe Print;
+    padding-bottom: 50px;
+}
+
+fieldset {
+    background-color: rgb(255,255,240);
+}
+
+input.Dato {
+    background-color: yellow;
+}

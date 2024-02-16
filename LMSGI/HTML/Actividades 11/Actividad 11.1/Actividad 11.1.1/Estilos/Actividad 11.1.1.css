@@ -1,0 +1,32 @@
+div.borde {
+    border: 2px solid;
+}
+
+h2 {
+    border: 7px double;
+    border-color: rgb(17, 121, 17);
+    color: blue;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div.foto {
+    margin-left: 30px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+    border: 2px solid;
+    border-color: rgb(22, 151, 65);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+img.foto {
+    margin: 10px;
+}
+
+span.titulo {
+    margin: 5px;
+}

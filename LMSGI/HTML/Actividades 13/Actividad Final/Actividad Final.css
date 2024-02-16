@@ -1,0 +1,38 @@
+body {
+    background-color: beige;
+    z-index: 0;
+}
+
+img.tomates {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+p.titulo {
+    font-size: 300%;
+    text-shadow: 3px 0px 1px black;
+}
+
+span.TomatesVerdes {
+    color: darkgreen;
+    font-size: 120%;
+    font-style: italic;
+}
+
+img.autora {
+    position: absolute;
+    top: 5px;
+    left: 500px;
+}
+
+span.protagonista {
+    font-size: 90%;
+    color: blue;
+    text-transform: uppercase ;
+}
+
+span.premios {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}

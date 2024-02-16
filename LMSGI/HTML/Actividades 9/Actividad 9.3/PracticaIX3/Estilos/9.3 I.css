@@ -1,0 +1,36 @@
+div.titulo {
+    border: solid 3px;
+    color: #9A2A2A;
+    background-color: rgb(245, 132, 79);
+    text-align: center;
+    border-color: green;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    margin-right: 50px;
+    margin-left: 50px
+}
+
+img {
+    border: solid 2px;
+    padding: 15px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 80px;
+}
+
+p {
+    text-align: left;
+    margin: 10px;
+    font-style: Verdana;
+    font-size: 17px;
+    word-spacing: 0.1px;
+    line-height: 1.5;
+    margin-right: 150px;
+}
+
+span.tenistas {
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+}

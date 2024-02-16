@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Práctica 12.5</title>
+    <link rel="stylesheet" href="Actividad 12.5.css">
+    <script src="main.js"></script>
+</head>
+<body>
+        <h1> Recogida de información </h1>
+        <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <br><br>
+                Nombre: <input class="Dato" type="text" name="nombre" size="45"/>
+                <br><br>
+                Dirección: <input class="Dato" type="text" name="nombre" size="65"/>
+                <br><br>
+                Teléfono: <input class="Dato" type="text" name="nombre" size="30"/>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Deportes: Fútbol</legend>
+                <div class="bordes"> 
+                    <p>Elige un jugador:</p>
+                    <form>
+                        <input type="radio" /> Messi <br>
+                        <input type="radio" /> Ronaldo <br>
+                        <input type="radio" /> Falcao <br>
+                    </form>
+                </div>
+                <div class="bordes2"> 
+                    <p>Otras aficiones:</p>
+                    <form>
+                        <input type="radio" /> Música <br>
+                        <input type="radio" /> Lectura <br>
+                        <input type="radio" /> Videojuegos <br>
+                    </form>
+                </div>
+                <br>
+                <p> Elige un equipo: </p>
+                <br><br>
+                <select>
+                    <option> R.Madrid</option>
+                    <option> Real Madrid</option>
+                    <option> Betis</option>
+                </select>
+            </fieldset>
+            <input id="submit" type="submit" value="Confirmar" onclick="JavaScript:alert('Se enviaran los resultados');"> 
+            <input id="anular" type="reset" value="Anular" onclick="JavaScript:reseteo(this.id)"/>
+            <button id="mostrarFecha" onclick="JavaScript:mostrarFecha(this.id)">Mostrar Fecha</button>
+        </form>
+</body>
+</html>

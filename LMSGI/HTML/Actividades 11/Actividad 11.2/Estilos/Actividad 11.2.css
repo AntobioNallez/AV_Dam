@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Ringbearer;
+    src: url('../Fuentes/Ringbearer.TTF');
+}
+
+@font-face {
+    font-family: Hobitton;
+    src: url('../Fuentes/hobbiton.ttf');
+}
+
+@keyframes desplazamientoDerecha {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(25px);}
+    100% { transform: translateX(50px); }
+  }
+
+div.titulo {
+    border: 1px solid;
+    background-color: grey;
+
+}
+
+span.JohnRonald:hover {
+    color: yellow;
+}
+
+p.titulo {
+    text-align: center;
+    font-family: Ringbearer;
+    font-size: xx-large;
+    box-shadow: 5px 2px 4px 4px rgb(221, 198, 97);
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+    color: orange;
+    border-radius: 15px;
+}
+
+p.titulo:hover {
+    animation: desplazamientoDerecha 5s;
+    animation-iteration-count: 3;
+}
+
+img.Hobbit {
+    border: 10px double;
+    float: left;
+    color: rgb(46, 182, 46);
+    margin: 1em;
+    box-shadow: 8px 6px 20px;
+}
+
+p {
+    margin-bottom: 1, 5px;
+    font-family: Segoe Print;
+    color: rgb(0, 60, 255);
+    font-size: 0.9em;
+}
+
+span.Hobbit {
+    font-family: Hobitton;
+    transition-duration: 5s;
+}
+
+span.Hobbit:hover {
+    color: red;
+}
