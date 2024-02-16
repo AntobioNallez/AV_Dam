@@ -1,0 +1,12 @@
+<!ELEMENT aeropuerto (avion*)>
+<!ELEMENT avion (modelo, compañia, num_vuelo, prioridad, localizacion,combustible)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT compañia (#PCDATA)>
+<!ELEMENT num_vuelo (#PCDATA)>
+<!ELEMENT prioridad (#PCDATA)>
+<!ELEMENT localizacion (puerta, letra)>
+<!ELEMENT puerta (#PCDATA)>
+<!ELEMENT letra (#PCDATA)>
+<!ELEMENT combustible (litros, temperatura)>
+<!ELEMENT litros (#PCDATA)>
+<!ELEMENT temperatura (#PCDATA)>

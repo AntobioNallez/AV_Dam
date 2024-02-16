@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Hospital">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Paciente">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nombre_Completo" type="full_name"/>
+                            <xs:element name="Habitacion" type="hab" />
+                            <xs:element name="Doctor" type="doctor"/>
+                            <xs:element name="Fecha_Nac" type="xs:date"/>
+                            <xs:element name="Varón" type="xs:boolean"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="full_name">
+        <xs:sequence>
+            <xs:element name="Nombre" type="xs:string"/>
+            <xs:element name="Apellido" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="doctor">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Cifuentes"></xs:enumeration>
+            <xs:enumeration value="Casado"></xs:enumeration>
+            <xs:enumeration value="Imaz"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="hab">
+        <xs:simpleContent>
+            <xs:extension base="xs:integer">
+                <xs:attribute name="camas" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<libro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Actividad 4.1.xsd">
+    <titulo>ElQuijote</titulo>
+    <!--Sin autor da error ya que en el dtd dice que tiene que haber-->
+    <!--Pasa lo mismo si pones dos o más ya que solo debería haber uno-->
+    <autor>Cervantes</autor>
+    <editorial>Planeta</editorial>
+    <isbn>978841234567</isbn>
+    <importe>12.34</importe>
+    <!--Con la coma falla, ya que la forma de declarar un decimal es con punto-->
+    <paginas>1234</paginas>
+    <prestado>true</prestado>
+    <!--Al ser boolean solo acepta true o false por lo que un valor no da error-->
+</libro>

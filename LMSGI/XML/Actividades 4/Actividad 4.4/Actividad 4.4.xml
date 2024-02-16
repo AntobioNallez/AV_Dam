@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Actividad%204.4.xsd">
+    <libro>
+        <titulo>El quijote</titulo>
+        <autor>Cervantes</autor>
+        <editorial>Planeta</editorial>
+        <isbn>978841234567</isbn>
+        <importe>12.34</importe>
+        <paginas>1234</paginas>
+        <prestado>true</prestado>
+        <fechaCompra>2013-02-29</fechaCompra>
+        <ubicacion>
+            <armario>5</armario>
+            <balda>4</balda>
+        </ubicacion>
+    </libro>
+
+    <libro>
+        <titulo>Tomates verdes fritos</titulo>
+        <autor> Fannie Flagg</autor>
+        <editorial>Planeta</editorial>
+        <isbn>97884101010</isbn>
+        <importe>9.99</importe>
+        <paginas>555</paginas>
+        <prestado>false</prestado>
+        <fechaCompra>2013-01-12</fechaCompra>
+        <ubicacion>
+            <armario>4</armario>
+            <balda>2</balda>
+        </ubicacion>
+    </libro>
+</biblioteca>

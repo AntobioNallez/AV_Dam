@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="electrodomestico">
+        <xs:complexType>
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element name="ref_num" type="numero_ref"/>
+                <xs:element name="Tipo" type="ef_energetica"/>
+                <xs:element name="marca" type="modelos" />
+                <xs:element name="precio_venta" />
+                <xs:element name="precio_coste" />
+                <xs:choice>
+                    <xs:element name="color" />
+                    <xs:element name="colores" type="colorear" />
+                </xs:choice>
+                <xs:element name="instalacion" type="accesories" />
+                <xs:element name="localidad" type="ciudades"/>
+                <xs:element name="año" type="formatoFecha"/>
+                <xs:element name="unidades" type="unidadesType"/>
+                <xs:choice>
+                    <xs:element name="LineaBlanca" type="lineaType"/>
+                    <xs:element name="LineaMarron" type="lineaType"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="numero_ref">
+        <xs:restriction base="xs:string">
+            <xs:length value="6" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="ef_energetica">
+        <xs:attribute name="ef_energ" use="required" />
+    </xs:complexType>
+
+    <xs:simpleType name="ef_energeticaType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-D]" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="modelos">
+        <xs:sequence>
+            <xs:element name="Nombre" />
+            <xs:element name="País" />
+        </xs:sequence>
+        <xs:attribute name="modelo" use="optional" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="colorear">
+        <xs:sequence>
+            <xs:element name="color" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="accesories">
+        <xs:attribute name="accesorios" use="required" type="accesoriosType" />
+    </xs:complexType>
+
+    <xs:simpleType name="accesoriosType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Panel" />
+            <xs:enumeration value="Puerta" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ciudades">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Logroño" />
+            <xs:enumeration value="Arnedo" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="formatoFecha">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="4" />
+            <xs:totalDigits value="4" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="unidadesType">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="0" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="lineaType">
+        <xs:attribute name="linea" type="xs:integer" />
+    </xs:complexType>
+</xs:schema>
