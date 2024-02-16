@@ -17,8 +17,8 @@
                 <xs:element name="año" type="formatoFecha"/>
                 <xs:element name="unidades" type="unidadesType"/>
                 <xs:choice>
-                    <xs:element name="LineaBlanca" />
-                    <xs:element name="LineaMarron" />
+                    <xs:element name="LineaBlanca" type="lineaType"/>
+                    <xs:element name="LineaMarron" type="lineaType"/>
                 </xs:choice>
             </xs:sequence>
         </xs:complexType>
@@ -26,7 +26,7 @@
 
     <xs:simpleType name="numero_ref">
         <xs:restriction base="xs:string">
-            <xs:length value="6"></xs:length>
+            <xs:length value="6" />
         </xs:restriction>
     </xs:simpleType>
 
@@ -42,8 +42,8 @@
 
     <xs:complexType name="modelos">
         <xs:sequence>
-            <xs:element name="Nombre"></xs:element>
-            <xs:element name="País"></xs:element>
+            <xs:element name="Nombre" />
+            <xs:element name="País" />
         </xs:sequence>
         <xs:attribute name="modelo" use="optional" type="xs:string"/>
     </xs:complexType>
@@ -74,6 +74,7 @@
 
     <xs:simpleType name="formatoFecha">
         <xs:restriction base="xs:int">
+            <xs:minInclusive value="4" />
             <xs:totalDigits value="4" />
         </xs:restriction>
     </xs:simpleType>
