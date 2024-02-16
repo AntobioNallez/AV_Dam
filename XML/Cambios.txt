@@ -1,0 +1,4 @@
+ej 7.3 (Digitos en año incorrectos, añadido el tipo a linea blanca y marron)
+ej 8.4 (Cambiar la obligatoriedad de el atributo CO2)
+ej 6.3 ()
+ej 2.4 (el dtd estaba vacio)
