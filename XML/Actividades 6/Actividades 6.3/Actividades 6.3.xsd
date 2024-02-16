@@ -4,7 +4,7 @@
     <xs:element name="Hospital">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Paciente" type="info_pac" />
+                <xs:element name="Paciente" type="info_pac" maxOccurs="unbounded"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
