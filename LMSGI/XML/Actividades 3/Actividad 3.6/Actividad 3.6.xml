@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Videoclub SYSTEM "Actividad%203.6.dtd">
+
+<Videoclub>
+    <Pelicula Num_Ref="P1">
+        <Titulo>
+            Tomates Verdes Fritos
+        </Titulo>
+        <Pais>
+            USA
+        </Pais>
+        <Directores>
+            <Director>Jon Avnet</Director>
+        </Directores>
+        <Interpretar>
+            <Intrepreta>Mary Stuart Masterson</Intrepreta>
+            <Intrepreta>Mary Louise Parker</Intrepreta>
+        </Interpretar>
+        <Generos>
+            <Genero>Drama</Genero>
+            <Genero>Comedia</Genero>
+        </Generos>
+        <Duracion Formato="2D">100</Duracion>
+        <AnoPublicacion>1991</AnoPublicacion>
+    </Pelicula>
+
+    <Pelicula Num_Ref="P2">
+        <Titulo>
+            El Hobbit
+        </Titulo>
+        <Pais>
+            USA
+        </Pais>
+        <Directores>
+            <Director></Director>
+            <!--Si no hay directores da error ya que en la declaración dice que debería haber-->
+        </Directores>
+        <Interpretar>
+            <Intrepreta>Mary Stuart Masterson</Intrepreta>
+            <Intrepreta>Mary Louise Parker</Intrepreta>
+        </Interpretar>
+        <Generos>
+            <Genero>Aventura</Genero>
+            <Genero>Fantasía</Genero>
+        </Generos>
+        <Duracion Formato="3D">169</Duracion> <!--El valor 4D no vale ya que esta limitado a 3D y 2D-->
+        <AnoPublicacion>2012</AnoPublicacion>
+    </Pelicula>
+
+    <Pelicula Num_Ref="P3"> <!--Para que valida he tenido que cambiar el código para que no se repita-->
+        <Titulo>
+            Los amantes pasajeros
+        </Titulo>
+        <Pais>
+            España
+        </Pais>
+        <Directores>
+            <Director>Pedro Almodóvar</Director>
+        </Directores>
+        <Interpretar>
+            <!--Pueden ser 0 o más por lo que si no hay no pasa nada-->
+        </Interpretar>
+        <Generos>
+            <Genero>Comedia</Genero>
+        </Generos>
+        <Duracion Formato="2D">90</Duracion>
+        <AnoPublicacion>2013</AnoPublicacion>
+    </Pelicula>
+</Videoclub>

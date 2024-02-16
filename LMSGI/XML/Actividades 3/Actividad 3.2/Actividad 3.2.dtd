@@ -1,0 +1,20 @@
+<!ELEMENT biblioteca (Libro+)>
+<!ELEMENT Libro (Titulo, Autores+, AnoPublicacion, Editorial, ISBN)>
+<!ELEMENT Autores (Autor+)>
+<!ELEMENT Autor (Nombre)>
+<!ELEMENT FechaCompra (Dia, Mes, Ano)>
+
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT AnoPublicacion (#PCDATA)>
+<!ELEMENT Editorial (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT Recomendado (#PCDATA)>
+
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Pais (#PCDATA)>
+<!ELEMENT Dia (#PCDATA)>
+<!ELEMENT Mes (#PCDATA)>
+<!ELEMENT Ano (#PCDATA)>
+
+<!ATTLIST Libro Recomendado (Sí|No) #REQUIRED>
+<!ATTLIST Autor Pais CDATA #REQUIRED>
