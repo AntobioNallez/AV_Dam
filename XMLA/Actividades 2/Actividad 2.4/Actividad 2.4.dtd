@@ -1,8 +1,0 @@
-<!ELEMENT tarjetas (info*)>
-<!ELEMENT info (nombre?,apodo?,direccion,ciudad,pais,codigoPostal)>
-<!ELEMENT apodo (#PCDATA)>
-<!ELEMENT nombre (#PCDATA)>
-<!ELEMENT direccion (#PCDATA)>
-<!ELEMENT ciudad (#PCDATA)>
-<!ELEMENT pais (#PCDATA)>
-<!ELEMENT codigoPostal (#PCDATA)>
