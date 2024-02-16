@@ -1,0 +1,4 @@
+ h1 {word-space: 1em}
+	  .primer {word-space: 1.5em}
+	  .segundo {word-space: 2em; text-transform: capitalize; }
+	  p{text-align: justify; text-indent:2.5em;}

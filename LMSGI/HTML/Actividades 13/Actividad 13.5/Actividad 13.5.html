@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title></title>
+	<link rel="stylesheet" href="Actividad 13.5.css" type="text/css" media="all">
+	<script type="text/JavaScript" src="main.js"></script>
+  </head>
+  <body>
+  <h1> Eligiendo un color </h1>
+	<canvas id="prueba4" width="500" height="200"></canvas>
+	
+	<div>
+		<p>Color:</p>
+			<input  type="radio" name="color" value="Red" onchange="dibujar();"/> Rojo
+			<br/>
+			<input  type="radio" name="color" value="Green" onchange="dibujar();"/> Verde
+			<br/>
+			<input  type="radio" name="color" value="Blue" onchange="dibujar();"/> Azul
+	</div>
+	<div>
+		<p>Texto:</p>
+		<input type="text" id="textoAEscribir" name="textoAEscribir" oninput="escribir()">
+	</div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Actividad 12.4</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='Actividad 12.4.css'>
+    <script src="main.js"> </script>
+</head>
+
+<body>
+    <div id="zona1" onmouseover="JavaScript:mostrarMensaje();">
+        Pasa el ratón
+    </div>
+    <div id="zona2" onmouseover="JavaScript:pasarMouse();" onmouseout="JavaScript:salirMouse();">
+        Pasa el ratón
+    </div>
+    <div id="zona3" onclick="JavaScript:hacerClick();">
+        Haz click
+    </div>
+    <div id="zona4" onmousedown="JavaScript:pulsarMouse();" onmouseup="JavaScript:soltarMouse();">
+        Pulsa el ratón
+    </div>
+    <div id="zona5" onmouseover="JavaScript:fuera();">
+        ¡Pillame!
+    </div>
+    <br><br>
+    <img id="miImagen" src="Imagenes/BombillaApagada.png" 
+       onmousedown="cambiarImagen('Imagenes/BombillaEncendida.png')"
+       onmouseup="restaurarImagen('Imagenes/BombillaApagada.png')"
+    >
+</body>
+
+</html>

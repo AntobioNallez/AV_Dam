@@ -1,0 +1,10 @@
+.azul{ color: rgb(18,94,255)}
+	#justi{ text-align: justify}
+	.opa{ color: rgb(18,94,255); opacity:.6} 
+	.fondo1{ background-image: url("../archivos/fondo.png");}
+	.fondo2{ background-color: yellow;}
+	.fondo3{ background-image: url("../archivos/Vicente_Blasco_Ibanez.jpg");
+	       background-repeat: no-repeat;
+		   background-attachment: scroll;
+		   background-position: bottom center;}
+#mano{cursor:pointer;}

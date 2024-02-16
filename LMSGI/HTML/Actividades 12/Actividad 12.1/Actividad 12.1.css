@@ -1,0 +1,28 @@
+legend {
+    opacity: 60%;
+}
+
+p {
+    font-style: italic;
+}
+
+div.bordes {
+    border: 1px solid;
+    color: rgb(92, 106, 240);
+    position: absolute;
+    right: 70%;
+    border-radius: 15px;
+}
+
+div.bordes2 {
+    border: 1px solid;
+    color: rgb(92, 106, 240);
+    position: absolute;
+    right: 50%;
+    border-radius: 15px;
+}
+
+input.botones {
+    position: relative;
+    left: 50%;
+}

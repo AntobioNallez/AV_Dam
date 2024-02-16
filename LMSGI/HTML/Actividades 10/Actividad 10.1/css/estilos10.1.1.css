@@ -1,0 +1,6 @@
+@font-face {font-family: Titulo; 
+	            src: url('../archivos/bybsy-regular-webfont.ttf');}
+    @font-face {font-family: Texto; 
+	            src: url('../archivos/Comfortaa-Regular.ttf');}
+	h1{ font-family: Titulo, Serif;}
+	p { font-family: Texto, Sreif;}

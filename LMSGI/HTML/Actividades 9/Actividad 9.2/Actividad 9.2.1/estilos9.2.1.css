@@ -1,0 +1,21 @@
+.autor{
+    color: blue;
+}
+.asimov { 
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: blue;
+}
+.gugol{
+    font-weight: bold;
+}
+h2{
+    color: blue;
+    font-family: Tamoha;
+}
+p.texto-justificado {
+    text-align: justify;
+}
+.libro {
+    color: #9A2A2A;
+}
