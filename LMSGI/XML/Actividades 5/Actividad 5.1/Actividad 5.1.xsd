@@ -49,10 +49,10 @@
     </xs:simpleType>
     
     <xs:complexType name="local">
-        <xs:sequence>
+        <xs:all>
             <xs:element name="puerta" type="xs:int"></xs:element> 
             <xs:element name="letra" type="xs:string"></xs:element>
-        </xs:sequence>
+        </xs:all>
     </xs:complexType>
 
     <xs:complexType name="fuel">
