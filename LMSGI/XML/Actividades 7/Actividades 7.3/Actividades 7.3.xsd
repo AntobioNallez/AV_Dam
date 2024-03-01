@@ -31,7 +31,11 @@
     </xs:simpleType>
 
     <xs:complexType name="ef_energetica">
-        <xs:attribute name="ef_energ" use="required" />
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="ef_energ" use="required" type="ef_energeticaType"/>
+            </xs:extension>
+        </xs:simpleContent>
     </xs:complexType>
 
     <xs:simpleType name="ef_energeticaType">
