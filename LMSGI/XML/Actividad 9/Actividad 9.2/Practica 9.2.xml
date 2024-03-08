@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Practica 9.2.xsl"?>
+<Pilotos>
+    <piloto>
+        <Cod_Piloto>1</Cod_Piloto>
+        <Nombre>Charles Leclerc</Nombre>
+        <Escuderia>Ferrari</Escuderia>
+        <Nacionalidad>Monegasco</Nacionalidad>
+        <Coche>SF-24</Coche>
+    </piloto>
+    <piloto>
+        <Cod_Piloto>2</Cod_Piloto>
+        <Nombre>Carlos Sáinz</Nombre>
+        <Escuderia>Ferrari</Escuderia>
+        <Nacionalidad>Español</Nacionalidad>
+        <Coche>SF-24</Coche>
+    </piloto>
+    <piloto>
+        <Cod_Piloto>3</Cod_Piloto>
+        <Nombre>Lance Stroll</Nombre>
+        <Escuderia>Aston Martin</Escuderia>
+        <Nacionalidad>Canadiense</Nacionalidad>
+        <Coche>AMR-24</Coche>
+    </piloto>
+    <piloto>
+        <Cod_Piloto>4</Cod_Piloto>
+        <Nombre>Fernando Alonso</Nombre>
+        <Escuderia>Aston Martin</Escuderia>
+        <Nacionalidad>Español</Nacionalidad>
+        <Coche>AMR-24</Coche>
+    </piloto>
+    <piloto>
+        <Cod_Piloto>5</Cod_Piloto>
+        <Nombre>Lewis Hamilton</Nombre>
+        <Escuderia>Mercedes</Escuderia>
+        <Nacionalidad>Inglés</Nacionalidad>
+        <Coche>W15</Coche>
+    </piloto>
+    <piloto>
+        <Cod_Piloto>6</Cod_Piloto>
+        <Nombre>George Russell</Nombre>
+        <Escuderia>Mercedes</Escuderia>
+        <Nacionalidad>Inglés</Nacionalidad>
+        <Coche>w15</Coche>
+    </piloto>
+    <piloto>
+        <Cod_Piloto>7</Cod_Piloto>
+        <Nombre>Max Verstappen</Nombre>
+        <Escuderia>Red Bull</Escuderia>
+        <Nacionalidad>Neerlandés</Nacionalidad>
+        <Coche>RB20</Coche>
+    </piloto>
+    <piloto>
+        <Cod_Piloto>8</Cod_Piloto>
+        <Nombre>Checo Pérez</Nombre>
+        <Escuderia>Red Bull</Escuderia>
+        <Nacionalidad>Mexicano</Nacionalidad>
+        <Coche>RB20</Coche>
+    </piloto>
+    <piloto>
+        <Cod_Piloto>9</Cod_Piloto>
+        <Nombre>Alex Albon</Nombre>
+        <Escuderia>Williams</Escuderia>
+        <Nacionalidad>Tailandés</Nacionalidad>
+        <Coche>FW46</Coche>
+    </piloto>
+    <piloto>
+        <Cod_Piloto>10</Cod_Piloto>
+        <Nombre>Logan Sargeant</Nombre>
+        <Escuderia>Williams</Escuderia>
+        <Nacionalidad>Estadounidense</Nacionalidad>
+        <Coche>FW46</Coche>
+    </piloto>
+</Pilotos>
