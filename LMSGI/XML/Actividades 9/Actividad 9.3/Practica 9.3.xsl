@@ -19,27 +19,9 @@
               <td><xsl:value-of select="Escuderia"/> <br></br>
               <xsl:value-of select="escuderia/nombre"/></td>
               <xsl:variable name="nacionalidad" select="Nacionalidad" />
-              <xsl:choose>
-                <xsl:when test="$nacionalidad = 'Español'">
-                  <td>
-                    <span style="color: red;">
-                      <xsl:value-of select="$nacionalidad" />
-                    </span>
-                  </td>
-                </xsl:when>
-                <xsl:when test="$nacionalidad = 'Inglés'">
-                  <td>
-                    <span style="color: blue;">
-                      <xsl:value-of select="$nacionalidad"/>
-                    </span>
-                  </td>
-                </xsl:when>
-                <xsl:otherwise>
-                  <td>
-                    <xsl:value-of select="$nacionalidad" />
-                  </td>
-                </xsl:otherwise>
-              </xsl:choose>
+              <td>
+                <xsl:value-of select="$nacionalidad" />
+              </td>
             </tr>
           </xsl:for-each>
         </table>
