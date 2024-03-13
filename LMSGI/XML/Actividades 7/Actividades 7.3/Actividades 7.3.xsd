@@ -59,7 +59,11 @@
     </xs:complexType>
 
     <xs:complexType name="accesories">
-        <xs:attribute name="accesorios" use="required" type="accesoriosType" />
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="accesorios" use="required" type="accesoriosType" />
+            </xs:extension>
+        </xs:simpleContent>
     </xs:complexType>
 
     <xs:simpleType name="accesoriosType">

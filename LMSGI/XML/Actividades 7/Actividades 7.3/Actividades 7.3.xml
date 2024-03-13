@@ -13,7 +13,7 @@
         <color>Blanco</color>
         <color>Negro</color>
     </colores>
-    <instalacion accesorios="Puerta"></instalacion>
+    <instalacion accesorios="Puerta">Integrado</instalacion>
     <localidad>Logroño</localidad>
     <año>2013</año>
     <unidades>2</unidades>
