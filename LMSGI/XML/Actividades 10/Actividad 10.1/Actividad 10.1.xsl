@@ -22,10 +22,10 @@
                                     </td>
                                 </xsl:if>
                                 <td>
-                                    <xsl:value-of select="concat(Nombre, ' ', Apellidos, ' (', @codigo, ')')"/>
+                                    <xsl:value-of select="concat('(', @codigo, ') - ', Nombre, ' ', Apellidos)"/>
                                 </td>
                                 <td>
-                                    <xsl:value-of select="NumPaginas"/>
+                                    <xsl:value-of select="../../NumPaginas"/>
                                 </td>
                             </tr>
                         </xsl:for-each>
