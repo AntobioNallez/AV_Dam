@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Contiene información de los alumnos de clase -->
+<clase>
+<alumno sexo="femenino">
+ <nombre>Neilin</nombre>
+ <apellidos>Abreu</apellidos>
+ <edad>19</edad>
+ <pueblo>Murillo de río Leza</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Erlan</nombre>
+ <apellidos>Alfaro</apellidos>
+ <edad>26</edad>
+ <pueblo>Lardero</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Mauricio</nombre>
+ <apellidos>Barrios</apellidos>
+ <edad>18</edad>
+ <pueblo>Calahorra</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Andrei</nombre>
+ <apellidos>Benedec</apellidos>
+ <edad>19</edad>
+ <pueblo>Pradejón</pueblo>
+</alumno>
+<alumno sexo="femenino">
+ <nombre>Usue</nombre>
+ <apellidos>Calvo</apellidos>
+ <edad>18</edad>
+ <pueblo>Santo Domingo de la Calzada</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Iván</nombre>
+ <apellidos>Compañón</apellidos>
+ <edad>18</edad>
+ <pueblo>Viana</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Flavio</nombre>
+ <apellidos>Crisán</apellidos>
+ <edad>19</edad>
+ <pueblo>Logroño</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Ismael</nombre>
+ <apellidos>El Athmani</apellidos>
+ <edad>23</edad>
+ <pueblo>Villamediana de Iregua</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>David</nombre>
+ <apellidos>Fernández</apellidos>
+ <edad>27</edad>
+ <pueblo>Logroño</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Samuel</nombre>
+ <apellidos>Hernández</apellidos>
+ <edad>18</edad>
+ <pueblo>Calahorra</pueblo>
+</alumno>
+<alumno sexo="femenino">
+ <nombre>Karena</nombre>
+ <apellidos>López</apellidos>
+ <edad>31</edad>
+ <pueblo>Villamediana de Iregua</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Víctor</nombre>
+ <apellidos>Nava</apellidos>
+ <edad>21</edad>
+ <pueblo>Logroño</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Odei</nombre>
+ <apellidos>Orduña</apellidos>
+ <edad>18</edad>
+ <pueblo>Villamediana de Iregua</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Fabián</nombre>
+ <apellidos>Padilla</apellidos>
+ <edad>20</edad>
+ <pueblo>Logroño</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Javier</nombre>
+ <apellidos>Peñalva</apellidos>
+ <edad>20</edad>
+ <pueblo>Calahorra</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Sergio</nombre>
+ <apellidos>Quiñones</apellidos>
+ <edad>26</edad>
+ <pueblo>Logroño</pueblo>
+</alumno>
+<alumno sexo="femenino">
+ <nombre>Ana</nombre>
+ <apellidos>Rubio</apellidos>
+ <edad>19</edad>
+ <pueblo>Logroño</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Imanol</nombre>
+ <apellidos>Rubio</apellidos>
+ <edad>18</edad>
+ <pueblo>Logroño</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Aitor</nombre>
+ <apellidos>Ruiz</apellidos>
+ <edad>18</edad>
+ <pueblo>Logroño</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Diego</nombre>
+ <apellidos>Ruiz</apellidos>
+ <edad>18</edad>
+ <pueblo>Rincón de Soto</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Esteban</nombre>
+ <apellidos>Santolalla</apellidos>
+ <edad>18</edad>
+ <pueblo>Calahorra</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Mario</nombre>
+ <apellidos>Sima</apellidos>
+ <edad>18</edad>
+ <pueblo>Milagro</pueblo>
+</alumno>
+<alumno sexo="femenino">
+ <nombre>Telma</nombre>
+ <apellidos>Teixeira</apellidos>
+ <edad>19</edad>
+ <pueblo>Villatuerta</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Rubén</nombre>
+ <apellidos>Tobías</apellidos>
+ <edad>18</edad>
+ <pueblo>Logroño</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Antonio</nombre>
+ <apellidos>Vállez</apellidos>
+ <edad>19</edad>
+ <pueblo>Logroño</pueblo>
+</alumno>
+<alumno sexo="masculino">
+ <nombre>Víctor</nombre>
+ <apellidos>Yepes</apellidos>
+ <edad>23</edad>
+ <pueblo>Logroño</pueblo>
+</alumno>
+</clase>

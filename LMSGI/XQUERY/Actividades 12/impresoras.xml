@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<impresoras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <impresora numSerie="i245" tipo="láser" compra="2010">
+    <marca>Epson</marca>
+    <modelo>EPL300</modelo>
+    <peso>4.52</peso>
+    <tamaño>A4</tamaño>
+    <tamaño>A5</tamaño>
+    <cartucho>C-123BV</cartucho>
+    <enred/>
+  </impresora>
+  <impresora numSerie="i246" tipo="matricial">
+    <marca>HP</marca>
+    <modelo>UltraJet 2410</modelo>
+    <peso>3.2</peso>
+    <tamaño>A4</tamaño>
+    <cartucho>C-456P</cartucho>
+  </impresora>
+    <impresora numSerie="i247" tipo="matricial">
+    <marca>HP</marca>
+    <modelo>UltraJet 2420</modelo>
+    <peso>3.8</peso>
+    <tamaño>A4</tamaño>
+    <tamaño>A3</tamaño>
+    <cartucho>C-456P</cartucho>
+  </impresora>
+  <impresora numSerie="i248" tipo="láser">
+    <marca>HP</marca>
+    <modelo>LaserJet 2430</modelo>
+    <peso>3.2</peso>
+    <tamaño>A3</tamaño>
+    <cartucho>C-456P</cartucho>
+  </impresora>
+    <impresora numSerie="i249" tipo="inyeccion">
+    <marca>Epson</marca>
+    <modelo>InkJet 6420</modelo>
+    <peso>2.3</peso>
+    <tamaño>A5</tamaño>
+    <tamaño>A4</tamaño>
+    <tamaño>A3</tamaño>
+    <cartucho>I-123T</cartucho>
+    <enred/>
+  </impresora>
+    <impresora numSerie="i250" tipo="inyeccion">
+    <marca>Epson</marca>
+    <modelo>InkJet 6520</modelo>
+    <peso>2.6</peso>
+    <tamaño>A5</tamaño>
+    <tamaño>A4</tamaño>
+    <cartucho>I-123T</cartucho>
+  </impresora>
+    <impresora numSerie="i251" tipo="matricial">
+    <marca>Brother</marca>
+    <modelo>SuperJet 9520</modelo>
+    <peso>4.2</peso>
+     <tamaño>A4</tamaño>
+    <cartucho>C-457P</cartucho>
+  </impresora>
+</impresoras>
