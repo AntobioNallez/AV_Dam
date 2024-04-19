@@ -1,3 +1,8 @@
+(:Act 12.1:)
+(:for $x in doc("impresoras.xml")/impresoras/impresora
+where $x[@tipo="láser"]
+return data ($x/modelo):)
+
 (:Act 12.2:)
 (:for $x in doc("impresoras.xml")/impresoras/impresora
 where count($x/tamaño) > 1
