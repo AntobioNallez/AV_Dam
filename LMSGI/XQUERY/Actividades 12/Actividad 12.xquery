@@ -1,7 +1,7 @@
 (:Act 12.1:)
-(:for $x in doc("impresoras.xml")/impresoras/impresora
-where $x[@tipo="láser"]
-return data ($x/modelo):)
+(:for $x in doc("impresoras.xml")/impresoras/impresora 
+where $x[@tipo = "láser"]
+return $x/modelo:)
 
 (:Act 12.2:)
 (:for $x in doc("impresoras.xml")/impresoras/impresora

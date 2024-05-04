@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Contiene información de los alumnos de clase -->
+<!-- Contiene informaciÃ³n de los alumnos de clase -->
 <clase>
 <alumno sexo="femenino">
  <nombre>Neilin</nombre>
  <apellidos>Abreu</apellidos>
  <edad>19</edad>
- <pueblo>Murillo de río Leza</pueblo>
+ <pueblo>Murillo de rÃ­o Leza</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Erlan</nombre>
@@ -23,7 +23,7 @@
  <nombre>Andrei</nombre>
  <apellidos>Benedec</apellidos>
  <edad>19</edad>
- <pueblo>Pradejón</pueblo>
+ <pueblo>PradejÃ³n</pueblo>
 </alumno>
 <alumno sexo="femenino">
  <nombre>Usue</nombre>
@@ -32,16 +32,16 @@
  <pueblo>Santo Domingo de la Calzada</pueblo>
 </alumno>
 <alumno sexo="masculino">
- <nombre>Iván</nombre>
- <apellidos>Compañón</apellidos>
+ <nombre>IvÃ¡n</nombre>
+ <apellidos>CompaÃ±Ã³n</apellidos>
  <edad>18</edad>
  <pueblo>Viana</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Flavio</nombre>
- <apellidos>Crisán</apellidos>
+ <apellidos>Crisï¿½n</apellidos>
  <edad>19</edad>
- <pueblo>Logroño</pueblo>
+ <pueblo>LogroÃ±o</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Ismael</nombre>
@@ -51,75 +51,75 @@
 </alumno>
 <alumno sexo="masculino">
  <nombre>David</nombre>
- <apellidos>Fernández</apellidos>
+ <apellidos>FernÃ¡ndez</apellidos>
  <edad>27</edad>
- <pueblo>Logroño</pueblo>
+ <pueblo>LogroÃ±o</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Samuel</nombre>
- <apellidos>Hernández</apellidos>
+ <apellidos>HernÃ¡ndez</apellidos>
  <edad>18</edad>
  <pueblo>Calahorra</pueblo>
 </alumno>
 <alumno sexo="femenino">
  <nombre>Karena</nombre>
- <apellidos>López</apellidos>
+ <apellidos>LÃ³pez</apellidos>
  <edad>31</edad>
  <pueblo>Villamediana de Iregua</pueblo>
 </alumno>
 <alumno sexo="masculino">
- <nombre>Víctor</nombre>
+ <nombre>VÃ­ctor</nombre>
  <apellidos>Nava</apellidos>
  <edad>21</edad>
- <pueblo>Logroño</pueblo>
+ <pueblo>LogroÃ±o</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Odei</nombre>
- <apellidos>Orduña</apellidos>
+ <apellidos>OrduÃ±a</apellidos>
  <edad>18</edad>
  <pueblo>Villamediana de Iregua</pueblo>
 </alumno>
 <alumno sexo="masculino">
- <nombre>Fabián</nombre>
+ <nombre>FabiÃ¡n</nombre>
  <apellidos>Padilla</apellidos>
  <edad>20</edad>
- <pueblo>Logroño</pueblo>
+ <pueblo>LogroÃ±o</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Javier</nombre>
- <apellidos>Peñalva</apellidos>
+ <apellidos>PeÃ±alva</apellidos>
  <edad>20</edad>
  <pueblo>Calahorra</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Sergio</nombre>
- <apellidos>Quiñones</apellidos>
+ <apellidos>QuiÃ±ones</apellidos>
  <edad>26</edad>
- <pueblo>Logroño</pueblo>
+ <pueblo>Logroï¿½o</pueblo>
 </alumno>
 <alumno sexo="femenino">
  <nombre>Ana</nombre>
  <apellidos>Rubio</apellidos>
  <edad>19</edad>
- <pueblo>Logroño</pueblo>
+ <pueblo>LogroÃ±o</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Imanol</nombre>
  <apellidos>Rubio</apellidos>
  <edad>18</edad>
- <pueblo>Logroño</pueblo>
+ <pueblo>LogroÃ±o</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Aitor</nombre>
  <apellidos>Ruiz</apellidos>
  <edad>18</edad>
- <pueblo>Logroño</pueblo>
+ <pueblo>LogroÃ±o</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Diego</nombre>
  <apellidos>Ruiz</apellidos>
  <edad>18</edad>
- <pueblo>Rincón de Soto</pueblo>
+ <pueblo>RincÃ³n de Soto</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Esteban</nombre>
@@ -140,21 +140,21 @@
  <pueblo>Villatuerta</pueblo>
 </alumno>
 <alumno sexo="masculino">
- <nombre>Rubén</nombre>
- <apellidos>Tobías</apellidos>
+ <nombre>RubÃ©n</nombre>
+ <apellidos>TobÃ­as</apellidos>
  <edad>18</edad>
- <pueblo>Logroño</pueblo>
+ <pueblo>LogroÃ±o</pueblo>
 </alumno>
 <alumno sexo="masculino">
  <nombre>Antonio</nombre>
- <apellidos>Vállez</apellidos>
+ <apellidos>VÃ¡llez</apellidos>
  <edad>19</edad>
- <pueblo>Logroño</pueblo>
+ <pueblo>LogroÃ±o</pueblo>
 </alumno>
 <alumno sexo="masculino">
- <nombre>Víctor</nombre>
+ <nombre>VÃ­ctor</nombre>
  <apellidos>Yepes</apellidos>
  <edad>23</edad>
- <pueblo>Logroño</pueblo>
+ <pueblo>LogroÃ±o</pueblo>
 </alumno>
 </clase>

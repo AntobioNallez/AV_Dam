@@ -101,8 +101,8 @@ where $x/pueblo = "Logroño" and $x/@sexo = "masculino"
 return $x
 ):)
 
-(:Actividad 14.20:)(:
-for $x in doc("alumnos.xml")/clase/alumno
+(:Actividad 14.20:)
+(:for $x in doc("alumnos.xml")/clase/alumno
 where $x/edad
 return <alumno>{$x/apellidos, $x/pueblo}</alumno>:)
 
