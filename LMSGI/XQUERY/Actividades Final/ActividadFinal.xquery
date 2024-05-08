@@ -1,6 +1,12 @@
 (: Actividad 1 :)
-for $tutor in doc("ActividadFinal.xml")//Tutor[not(@categoria = 'catedrático')]
-return ($tutor/Nombre/text(), $tutor/@categoria, $tutor/Especialidad)
+(:for $tutor in doc("ActividadFinal.xml")//Tutor[not(@categoria = 'catedrático')]
+return ($tutor/Nombre/text(), $tutor/@categoria, $tutor/Especialidad):)
+
+(:Actividad 2:)
+(:for $x in doc("ActividadFinal.xml")//Curso
+let $y := $x/Tutor/Especialidad
+group by $y
+return ($y, sum($x/Num_alumnos)):)
 
 (: Actividad 3 :)
 (:count(
@@ -26,9 +32,10 @@ return $x/text():)
 where $x/Aula = 9
 return $x/Nombre:)
 
-(: Actividad 7 ***:)
+(: Actividad 7 :)
 (:count(
-for $x in doc("ActividadFinal.xml")//Curso/Aula
+for $x in doc("ActividadFinal.xml")//Curso
+where $x/Aula/@diurno or not($x/@turno)
 return $x
 ):)
 
@@ -49,10 +56,10 @@ return $x
 where $x/Tutor/Especialidad != 'Informática'
 return $x/Nombre:)
 
-(: Actividad 11 ***:)
+(: Actividad 11 :)
 (:count(
 for $x in doc("ActividadFinal.xml")/Instituto/Curso
-where $x/@turno = 'diurno'
+where $x/@turno = 'diurno' or not($x/@turno)
 return $x
 ):)
 
