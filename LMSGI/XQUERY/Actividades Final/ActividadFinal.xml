@@ -85,7 +85,7 @@
         <Nombre>ASIR2</Nombre>
         <Tutor categoria="secundaria">
             <Nombre>Germán Gutiérrez</Nombre>
-            <Especialidad>Informatica</Especialidad>
+            <Especialidad>Informática</Especialidad>
         </Tutor>
         <Num_alumnos>18</Num_alumnos>
         <Aula proyector="NO">9</Aula>
