@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE Instituto SYSTEM "ActividadFinal.dtd"> -->
+
+<Instituto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ActividadFinal.xsd">
+
+    <NombreCentro>IES Comercio</NombreCentro>
+    <Director>Félix Fernández</Director>
+    <Enseñanzas>
+        <Enseñanza>Secundaria</Enseñanza>
+        <Enseñanza>Bachillerato</Enseñanza>
+        <Enseñanza>Formación Profesional</Enseñanza>
+    </Enseñanzas>
+
+    <Curso>
+        <Nombre>DAM1</Nombre>
+        <Tutor categoria="catedrático">
+            <Nombre>Pepe Pérez</Nombre>
+            <Especialidad>Matemáticas</Especialidad>
+        </Tutor>
+        <Num_alumnos>25</Num_alumnos>
+        <Aula proyector="SI">7</Aula>
+    </Curso>
+
+    <Curso>
+        <Nombre>DAM2</Nombre>
+        <Tutor categoria="técnico">
+            <Nombre>Ángela Álvarez</Nombre>
+            <Especialidad>Informática</Especialidad>
+        </Tutor>
+        <Num_alumnos>20</Num_alumnos>
+        <Aula proyector="SI">8</Aula>
+    </Curso>
+
+    <Curso turno="diurno">
+        <Nombre>ASIR1</Nombre>
+        <Tutor>
+            <Nombre>Quintín Quiñonez</Nombre>
+            <Especialidad>Informática</Especialidad>
+        </Tutor>
+        <Num_alumnos>23</Num_alumnos>
+        <Aula proyector="SI">2</Aula>
+    </Curso>
+
+    <Curso turno="diurno">
+        <Nombre>ASIR2</Nombre>
+        <Tutor>
+            <Nombre>Soledad Sánchez</Nombre>
+            <Especialidad>Economía</Especialidad>
+        </Tutor>
+        <Num_alumnos>19</Num_alumnos>
+        <Aula proyector="NO">9</Aula>
+    </Curso>
+
+    <Curso turno="nocturno">
+        <Nombre>DAM1</Nombre>
+        <Tutor categoria="secundaria">
+            <Nombre>Benito Bueno</Nombre>
+            <Especialidad>Informática</Especialidad>
+        </Tutor>
+        <Num_alumnos>15</Num_alumnos>
+        <Aula proyector="SI">7</Aula>
+    </Curso>
+
+    <Curso turno="nocturno">
+        <Nombre>DAM2</Nombre>
+        <Tutor categoria="catedrático">
+            <Nombre>Carmen Cáceres</Nombre>
+            <Especialidad>Economía</Especialidad>
+        </Tutor>
+        <Num_alumnos>14</Num_alumnos>
+        <Aula proyector="SI">8</Aula>
+    </Curso>
+
+    <Curso turno="nocturno">
+        <Nombre>ASIR1</Nombre>
+        <Tutor categoria="secundaria">
+            <Nombre>Daniel Dueñas</Nombre>
+            <Especialidad>FOL</Especialidad>
+        </Tutor>
+        <Num_alumnos>13</Num_alumnos>
+        <Aula proyector="SI">6</Aula>
+    </Curso>
+
+    <Curso turno="nocturno">
+        <Nombre>ASIR2</Nombre>
+        <Tutor categoria="secundaria">
+            <Nombre>Germán Gutiérrez</Nombre>
+            <Especialidad>Informatica</Especialidad>
+        </Tutor>
+        <Num_alumnos>18</Num_alumnos>
+        <Aula proyector="NO">9</Aula>
+    </Curso>
+
+    <Curso turno="nocturno">
+        <Nombre>AFI1</Nombre>
+        <Tutor categoria="secundaria">
+            <Nombre>Ramón Rivas</Nombre>
+            <Especialidad>Matemáticas</Especialidad>
+        </Tutor>
+        <Num_alumnos>20</Num_alumnos>
+        <Aula proyector="NO">5</Aula>
+    </Curso>
+</Instituto>

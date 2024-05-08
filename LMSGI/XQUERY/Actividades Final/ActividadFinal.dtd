@@ -1,0 +1,13 @@
+<!ELEMENT Instituto (Curso+, Enseñanzas)>
+<!ELEMENT Enseñanzas (Enseñanza+)>
+<!ELEMENT Enseñanza (#PCDATA)>
+<!ELEMENT Curso (Nombre,Tutor,Num_alumnos,Aula)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Tutor (Nombre,Especialidad?)>
+<!ELEMENT Especialidad (#PCDATA)>
+<!ELEMENT Num_alumnos (#PCDATA)>
+<!ELEMENT Aula (#PCDATA)>
+
+<!ATTLIST Curso turno (diurno|nocturno) "diurno">
+<!ATTLIST Aula proyector (SI|NO) #REQUIRED>
+<!ATTLIST Tutor categoria (catedrático|secundaria|técnico) "secundaria">

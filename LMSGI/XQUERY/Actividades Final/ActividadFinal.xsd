@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Instituto">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="NombreCentro" />
+                <xs:element name="Director" />
+                <xs:element name="Enseñanzas" type ="enseñanzasType" maxOccurs="1" />
+                <xs:element name="Curso" maxOccurs="unbounded" type="cursoType" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="enseñanzasType">
+        <xs:sequence>
+            <xs:element name="Enseñanza" maxOccurs="unbounded" type="enseñanzaType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="enseñanzaType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Secundaria" />
+            <xs:enumeration value="Bachillerato" />
+            <xs:enumeration value="Formación Profesional" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="cursoType">
+        <xs:sequence>
+            <xs:element name="Nombre" type="nombreType" />
+            <xs:element name="Tutor" type="tutorType" />
+            <xs:element name="Num_alumnos" type="alumType" />
+            <xs:element name="Aula" type="aulaType" />
+        </xs:sequence>
+        <xs:attribute name="turno" />
+    </xs:complexType>
+
+    <xs:simpleType name="nombreType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="4" />
+            <xs:maxLength value="5" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="tutorType">
+        <xs:sequence>
+            <xs:element name="Nombre" type="xs:string" />
+            <xs:element name="Especialidad" minOccurs="0" type="xs:string" />
+        </xs:sequence>
+        <xs:attribute name="categoria" />
+    </xs:complexType>
+
+    <xs:simpleType name="alumType">
+        <xs:restriction base="xs:int">
+            <xs:minInclusive value="10" />
+            <xs:maxInclusive value="30" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="aulaType">
+        <xs:simpleContent>
+            <xs:extension base="xs:integer">
+                <xs:attribute name="proyector" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:schema>
