@@ -17,8 +17,7 @@ return $x
 
 (: Actividad 4 :)
 (:count(
-for $x in doc("ActividadFinal.xml")/Instit
-to/Curso/Tutor
+for $x in doc("ActividadFinal.xml")/Instituto/Curso/Tutor
 where $x/@categoria = 'secundaria'
 return $x
 ):)
